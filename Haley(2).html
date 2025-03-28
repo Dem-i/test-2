@@ -1,0 +1,79 @@
+html{
+  max-width:2000px;
+}
+img{
+  border-radius: 65px;
+  height:260px;
+  margin:20px 45px;
+  padding:20px;
+}
+body{
+  
+  font-size:20px;
+  font-family:helvetica;
+  animation-name: back;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  ;
+}
+h1{
+  margin-left:14px;
+  position: relative;
+  color: blue;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+/*magenta, cyan, yellow, ----
+blue, lime, orange, red*/
+
+}
+@keyframes example {
+  0%   {color: #deff8a;}
+  25%  {color: #82ee82;}
+  50%  {color: #83e7e4;}
+  75%  {color: #4d83ff;}
+  100% {color: #deff8a;}
+}
+@keyframes back{
+  0%   {background-color: #ab8aff;}
+  25%  {background-color: #ee82ee;}
+  50%  {background-color: #e78386;}
+  75%  {background-color: #ff5e4d ;}
+  100% {background-color: #ab8aff;}
+}
+p{
+  text-indent:16px;
+}
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: red;
+}
+label{
+  display:block;
+}
+input[type="submit"]{
+  margin-top:10px;
+  margin-left:250px;
+  height:30px;
+  width:200px;
+}
+label{
+  padding:2px;
+}
+fieldset{
+  border-color:black;
+  :;
+}

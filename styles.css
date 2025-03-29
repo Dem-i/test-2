@@ -1,7 +1,7 @@
 html{
   font-size:14px;
   font-family:Helvetica;
-  background: linear-gradient(145deg,rgb(216,177 ,198 ), rgb(173,210,219), rgb(216,177,198))no-repeat;
+  background: linear-gradient(145deg,rgb(0,80 ,181 ), rgb(0,168,107), rgb(156,80,182))no-repeat;
  background-size:cover;
   min-height:100%;
 }
@@ -26,6 +26,7 @@ p{
 
 }
 fieldset{
+  text-align:center;
   border-color:white;
   padding: 1.5rem 0;
   border-bottom:none;
@@ -38,8 +39,8 @@ fieldset:last-of-type{
   border-bottom: 2px solid white;}
 label{
   padding:1px;
+  text-align:center;
   display:block;
-  margin:.3rem ;
 }
 legend{
   margin-left:.5rem;
@@ -53,8 +54,7 @@ textarea{
   width:200px;
 }
  input[type="submit"] {
-  display: block;
-  width: 60%;
+  width: 30%;
   margin:1rem auto;
   height: 2rem;
   font-size: 1.1rem;

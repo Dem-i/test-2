@@ -34,10 +34,20 @@
   </body>
   <div>
     <form>
-      <fieldset>
+ <fieldset>
       <legend>Make a request:</legend>
-     <label for="name" id="name-label">Enter your full name: <input id="name" name="name" type="text" placeholder="First and last name" required></label>
-     <label for="email" id="email-label" >Enter your email: <input id="email" type="email" placeholder="email" required></label><label for="number" id="number-label">Enter your cell-phone number: <input id="phone" type="tel" name="phone" min="0" max="99" placeholder="(123)-456-7890" pattern="[0-9]{1}-[0-9]{9}" maxlength="10"></label>
+   <label for="full-name">Enter your full name:
+  <input id="full-name" type="text" name="full-name" 
+         placeholder="First Last" 
+          pattern="[A-Za-z]+ [A-Za-z]+" 
+         required>
+</label>
+   <label for="email" id="email-label" >Enter your email: <input id="email" type="email" placeholder="email" required></label>
+   <label for="phone" id="number-label">
+  Enter your cell-phone number:
+  <input id="phone" type="tel" name="phone" placeholder="123-456-7890" 
+         pattern="\d{3}-\d{3}-\d{4}" maxlength="12" required>
+</label>
      <input type="submit" value="Submit">
      </fieldset>
     </form>

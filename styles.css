@@ -1,12 +1,12 @@
 html{
-  font-size:16px;
+  font-size:14px;
   font-family:Helvetica;
   background: linear-gradient(145deg,rgb(0,80 ,181 ), rgb(0,168,107), rgb(156,80,182))no-repeat;
  background-size:cover;
   min-height:100%;
 }
 h1{
-  color: rgb(0,0,0,);
+  color: black;
   text-align:center;
 }
 h2{
@@ -20,9 +20,8 @@ body{
 }
 p{
   margin: 0;
-  display: flex;
-  justify-content: space-between;
-  color: rgb(0,0,0,);
+ display:inline;
+  color: black;
   text-align:center;
 
 }
@@ -62,3 +61,8 @@ textarea{
   background-color: white;
   border-color: white;
   min-width: 300px;}
+ 
+ .medium {
+  background-color: black;
+  margin:10px;
+}

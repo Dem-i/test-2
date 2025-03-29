@@ -16,7 +16,9 @@ body{
   font-size:1rem; 
 }
 p{
-  
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
   color: rgb(0,0,0,);
   text-align:center;
 

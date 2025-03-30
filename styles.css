@@ -3,7 +3,7 @@ html{
   font-family:Verdana;
   background: linear-gradient(145deg,rgb(181,211 ,221 ), rgb(216,177,198), rgb(173,210,219))no-repeat;
  background-size:cover;
-  min-height: 200vh;
+  min-height: 140vh;
 }
 h1{
   color: black;

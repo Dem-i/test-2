@@ -1,6 +1,6 @@
 html{
-  font-size:14px;
-  font-family:Helvetica;
+  font-size:16px;
+  font-family:Verdana;
   background: linear-gradient(145deg,rgb(181,211 ,221 ), rgb(216,177,198), rgb(173,210,219))no-repeat;
  background-size:cover;
   min-height:100%;
@@ -72,5 +72,32 @@ form{
   align-content:center;
 }
 .gallery{
-  margin:15vw;
+  text-align:center;
+}
+h3{
+  text-align:center;
+}
+.facebook{
+  display:block;
+  margin-top:-25px;
+  max-width:130px;
+  max-height:130px;
+}
+a{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:130px;
+  max-height:130px;
+}
+.inscription{
+  font-size:26px;
+  font-family:Courier New, Verdana;
+}
+.title{
+  font-size:26px;
+  font-family:Brush Script MT, Verdana;
+}
+h4, h5{
+  text-align:center;
 }
